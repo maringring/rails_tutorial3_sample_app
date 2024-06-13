@@ -11,6 +11,9 @@ gem "bootstrap-sass",  "3.4.1"
 gem 'sass-rails', '~> 5.0'
 gem "sprockets-rails", "3.4.2"
 
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+
 gem 'uglifier', '>= 1.3.0'
 
 
@@ -21,6 +24,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
+gem "faker",           "2.21.0"
+
+gem "will_paginate",           "3.3.1"
+gem "bootstrap-will_paginate", "1.0.0"
 
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
